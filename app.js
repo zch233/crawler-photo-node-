@@ -25,7 +25,7 @@ class Download {
         transform: function (body) {
           return cheerio.load(body);
         }
-      })
+      }).catch(err => console.log(err))
     return data
   }
   async getPageTotal(url){
