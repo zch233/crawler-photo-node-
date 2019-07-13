@@ -9,6 +9,6 @@ npm i
 ```
 ##### 运行
 ```
-node index.js
-// ctrl + c 暂停
+node app
+// ctrl + c // stop
 ```
